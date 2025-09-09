@@ -6,8 +6,8 @@ Analizza vendite, affitti e rendimento per tipologia e area geografica, con mapp
 ## Contenuti del repository
 
 - `/pbix/` — file Power BI Desktop (.pbix)
-- `/data/` — dataset d’esempio o connettori (CSV/Excel/SQL)
-- `/images/` — screenshot e icone usate nel report
+- `/data/` — datasets (.csv)
+- `/images/` — screenshots
 
 > Aggiorna i nomi delle cartelle se diversi nel tuo progetto.
 
@@ -29,6 +29,11 @@ Analizza vendite, affitti e rendimento per tipologia e area geografica, con mapp
 - `dati_2016_2018` — fatti per vendite/affitti per comune, tipologia, semestre.
 - `Calendar` — tabella calendario con colonne di anno/semestre.
 - `irpef_comuni_2017_clean` — reddito medio/mediano per contribuente (a livello territoriale).
+- `Elenco-comuni-italiani` — anagrafica di riferimento dei comuni.
+- `Bilancio_demografico_*` — indicatori demografici 
+
+- <img width="1123" height="672" alt="image" src="https://github.com/user-attachments/assets/9b0343a9-666f-4b3a-b0fb-80a80a2f2860" />
+
 
 Relazioni: `dati_2016_2018` ↔ `Calendar` (sulla data/semestre) e ↔ dimensioni geografiche (Regione/Comune).
 
