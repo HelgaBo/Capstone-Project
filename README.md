@@ -8,7 +8,6 @@ Analizza vendite, affitti e rendimento per tipologia e area geografica, con mapp
 - `/pbix/` — file Power BI Desktop (.pbix)
 - `/data/` — dataset d’esempio o connettori (CSV/Excel/SQL)
 - `/images/` — screenshot e icone usate nel report
-- `/docs/` — note tecniche e specifiche (facoltativo)
 
 > Aggiorna i nomi delle cartelle se diversi nel tuo progetto.
 
